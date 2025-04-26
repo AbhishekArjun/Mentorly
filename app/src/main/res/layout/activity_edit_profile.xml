@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!-- Upload Photo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/login_rounded_button"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageButton
+            android:id="@+id/profileImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="Upload Photo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_logo" />
+
+
+        <TextView
+            android:id="@+id/uploadPhotoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Upload Photo"
+            android:textColor="#007BFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Input Fields -->
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_rounded_button"
+        android:hint="Full Name"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_rounded_button"
+        android:hint="Age"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <EditText
+        android:id="@+id/profession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_rounded_button"
+        android:hint="Profession"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_rounded_button"
+        android:hint="Experience"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+    <EditText
+        android:id="@+id/editBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/login_rounded_button"
+        android:hint="Add short bio"
+        android:minLines="3"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textColorHint="#434040" />
+
+
+    <!-- Save Profile Button -->
+    <Button
+        android:id="@+id/btnSaveprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#007BFF"
+        android:text="Save Profile"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <!-- Logout Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_rounded_button"
+        android:backgroundTint="#007BFF"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

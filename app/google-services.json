@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997413172383",
+    "project_id": "mentorly-966d1",
+    "storage_bucket": "mentorly-966d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997413172383:android:3f827ca9db9dcc72779eaa",
+        "android_client_info": {
+          "package_name": "com.example.mentorly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLtwtU9wwCMJdhhxgm4ustaDID8ySoAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
